@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+/* Design Styles */
+
+body {
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #3e6897;
+	overflow-x: hidden;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+::-webkit-scrollbar {
+    width: 12.5px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+	border-radius: 10px;
+	opacity: 0.4;
+}
+
+.divboxSpacer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.divboxSpacer2 {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.divboxSpacer3 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+
+/*Design ID's */
+
+#divbox1 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding-bottom: auto;
+	display: block;
+	position: static;
+	width: 100%;
+	height: 4925px;
+	z-index: -10;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #divbox1 {
+	height: auto;
+  }
+}
+#divbox1alt {
+	padding-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 200px;
+	margin-bottom: 0px;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: rgba(203,203,203,1.00);
+}
+@media only screen and (max-width: 1000px) {
+  #divbox1alt {
+    top: 100px;
+  }
+}
+#divbox1altalt {
+	margin-right: auto;
+	margin-left: auto;
+	top: 200px;
+	margin-bottom: 0px;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: #3e6897;
+	overflow-x: hidden;
+}
+#divbox1altaltalt {
+	margin-right: auto;
+	margin-left: auto;
+	top: 100px;
+	margin-bottom: 0px;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: white;
+	overflow-x: hidden;
+}
+#divbox2 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 70%;
+	height: auto;
+	z-index: 10;
+	background-color: rgba(203,203,203,1.00);
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+#divbox2alt {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: white;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #divbox2alt {
+    width: 100%;
+  }
+}
+#divbox3 {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 650px;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: white;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #divbox3 {
+	margin-top: 0px;
+	padding-bottom: 700px;
+  }
+}
+#divbox3-2 {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 650px;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: white;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #divbox3 {
+	padding-top: 300px;
+	padding-bottom: 700px;
+  }
+}
+#divbox4 {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: white;
+}
+#divbox5 {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 65%;
+	height: auto;
+	z-index: 10;
+	background-color: rgba(203,203,203,1.00);
+}
+@media only screen and (max-width: 1000px) {
+  #divbox5 {
+	width: 80%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #divbox5 {
+	width: 100%;
+  }
+}
+#divbox5alt {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: auto;
+	z-index: 10;
+	background-color: white;
+}
+#divbox6 {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: #3e6897;
+}

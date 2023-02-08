@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* contact form css */
+.contactText {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	height: 20px;
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  .contactText {
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+}
+.contactInput {
+	border-radius: 15px;
+	border-color: white;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(203,203,203,1.00);
+	width: 90%;
+	height: 25px;
+	font-size: 16pt;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  .contactInput {
+	margin-left: 10px;
+  }
+}
+.contactInputPhone {
+	border-radius: 15px;
+	border-color: white;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(203,203,203,1.00);
+	width: 50%;
+	height: 25px;
+	font-size: 16pt;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}@media only screen and (max-width: 1000px) {
+  .contactInputPhone {
+	margin-left: 10px;
+  }
+}
+.contactInputComments {
+	border-radius: 5px;
+	border-color: white;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	background-color: rgba(203,203,203,1.00);
+	width: 95%;
+	height: 100px;
+	font-size: 14pt;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  .contactInputComments {
+	width: 90%;
+  }
+}
+.submit {
+	border-radius: 25px;
+	border-color: white;
+	border-style: solid;
+	color: black;
+	margin-left: auto;
+	margin-right: 160px;
+	margin-top: 10px;
+	position: relative;
+	background-color: white;
+	font-size: 14pt;
+	width: 100px;
+	height: 40px;
+}
+@media only screen and (max-width: 1000px) {
+  .submit {
+	width: 100px;
+	height: 40px;
+	font-size: 14pt;
+	margin-right: auto;  
+	margin-left: auto;
+	-webkit-appearance: none;
+  }
+}
+table {
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	margin-bottom: 100px;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+td {
+	vertical-align: top;
+}
+@media only screen and (max-width: 1000px) {
+  td {
+	display: block;
+  }
+}

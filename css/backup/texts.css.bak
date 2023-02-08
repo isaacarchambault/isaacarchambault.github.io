@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/* all text-related CSS */
+.p1 {
+	font-family: "Helvetica";
+	font-size: 24pt;
+	text-align: left;
+	color: black;
+}
+@media only screen and (max-width: 1000px) {
+  .p1 {
+    font-size: 26pt;
+  }
+}
+.p2 {
+	font-family: "Helvetica";
+	font-size: 16pt;
+	text-align: left;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+@media only screen and (max-width: 1000px) {
+  .p2 {
+    font-size: 18pt;
+  }
+}
+.p3 {
+	font-family: "Helvetica";
+	font-size: 16pt;
+	text-align: center;
+	color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+@media only screen and (max-width: 1000px) {
+  .p3 {
+    font-size: 26pt;
+  }
+}
+.p3Div {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: transparent;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+	opacity: 0.0;
+  }
+  100% {
+    transform: translateY(0);
+	opacity: 1.0;
+  }
+}
+.p4 {
+	font-family: "Helvetica";
+	font-size: 24pt;
+	text-align: left;
+	color: black;
+}
+@media only screen and (max-width: 1000px) {
+  .p4 {
+    font-size: 26pt;
+  }
+}
+.footertext {
+	margin-right: 100px;
+	padding-top: 20px;
+	font-family: "Helvetica";
+	font-size: 14pt;
+	text-align: left;
+	color: black;
+	float: right;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  .footertext {
+    font-size: 20pt;
+	margin-right: 0px;
+	text-align: center;
+	float: none;
+	-webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%;
+  }
+}
+h2 {
+	font-family: "Helvetica";
+	font-size: 40pt;
+	text-align: left;
+	color: white;	
+}
+h3 {
+	font-family: "Helvetica";
+	font-size: 60pt;
+	text-align: left;
+	color: white;
+	text-shadow: 5px 5px 10px #000000;
+	width: 630px;
+}
+@media only screen and (max-width: 1000px) {
+  h3 {
+    font-size: 60pt;
+	-webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%;  
+  }
+}
+h4 {
+	font-family: "Helvetica";
+	font-size: 24pt;
+	text-align: left;
+	color: white;	
+}
+h5 {
+	font-family: "Helvetica";
+	font-size: 18pt;
+	text-align: left;
+	color: white;	
+}
+.headertextStatic{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Helvetica";
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #3e6897;
+    -webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.headertext {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: "Helvetica";
+	font-size: 11.5pt;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #3e6897;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.headertext:hover {
+	opacity: 0.60;
+	cursor: pointer;
+}
+.headerBullets {
+	list-style: none;
+	display: inline-block;
+}
+.headerBulletsSmallL {
+	width: 50%;
+	display: block;
+	float: left;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.headerBulletsSmallR {
+	width: 50%;
+	display: block;
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+.headertextsmall {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-family: "Helvetica";
+	font-size: 25pt;
+	line-height: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: transparent;
+	color: #3e6897;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.headertextsmall:hover {
+	opacity: 0.60;
+	cursor: pointer;
+}
+
+/* Text ID's */
+
+#p1 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: transparent;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #p1 {
+    width: 90%;
+  }
+}
+#p2 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: transparent;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #p1 {
+    width: 90%;
+  }
+}
+#p4 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -50px;
+	display: block;
+	position: absolute;
+	float: left;
+	left: 0px;
+	width: 60%;
+	height: auto;
+	z-index: 10;
+	background-color: transparent;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #p4 {
+	width: 100%;
+	left: 5%;
+  }
+}
+#h1 {
+	font-family: "Helvetica";
+	font-size: 60pt;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+}
+@media only screen and (max-width: 1000px) {
+  #h1 {
+    font-size: 60pt;
+	-webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #h1 {
+    min-width: 800px;
+  }
+}
+#h2 {
+	
+}
+#h3num1 {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: auto;
+	z-index: 11;
+	background-color: transparent;
+}
+@media only screen and (max-width: 1000px) {
+  #h3num1 {
+	margin-top: -30px;
+  }
+}
+#h3num2 {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: auto;
+	z-index: 11;
+	background-color: transparent;
+}
+@media only screen and (max-width: 1000px) {
+  #h3num2 {
+	margin-top: -30px;
+  }
+}
+#h3num3 {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: auto;
+	z-index: 11;
+	background-color: transparent;
+}
+@media only screen and (max-width: 1000px) {
+  #h3num3 {
+	margin-top: -30px;
+  }
+}
+#h3num4 {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: auto;
+	z-index: 11;
+	background-color: transparent;
+}
+@media only screen and (max-width: 1000px) {
+  #h3num4 {
+	margin-top: -30px;
+  }
+}
+#h4 {
+	
+}
+#h5 {
+	 
+}

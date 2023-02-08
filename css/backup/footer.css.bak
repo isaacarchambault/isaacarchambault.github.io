@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* footer  */
+
+footer {
+    clear: both;
+    position: relative;
+    height: 100px;
+	border-top: 10px #3e6897;
+	border-top-style: solid;
+	-webkit-box-shadow: 0px -10px 20px  rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px -10px 20px  rgba(0, 0, 0, 0.4);
+	box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.4);
+	background-color: white;
+}
+@media only screen and (max-width: 1000px) {
+  footer {
+   height: 150px;
+  }
+}
+#footeralt {
+    clear: both;
+    position: relative;
+    height: 100px;
+	background-color: white;
+}
+@media only screen and (max-width: 1000px) {
+  #footeralt {
+   height: 150px;
+  }
+}
+

@@ -1,0 +1,8 @@
+[13-May-2019 01:46:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_string() in /home/cqx2rr2zr5fa/public_html/send_form_email.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cqx2rr2zr5fa/public_html/send_form_email.php on line 34
+[13-May-2019 01:47:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function clean_string() in /home/cqx2rr2zr5fa/public_html/send_form_email.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/cqx2rr2zr5fa/public_html/send_form_email.php on line 34

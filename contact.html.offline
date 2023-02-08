@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/texts.css">
+    <link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/header.css">
+	<link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/contact.css">
+	<link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/imgs.css">
+	<link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="https://www.isaaca.net/css/load.css">
+</head>
+
+<body>
+	
+	<div class="loadscreen">
+  		<div class="spinner">
+  			<div class="bounce1"></div>
+ 			 <div class="bounce2"></div>
+ 			<div class="bounce3"></div>
+		</div>
+	</div>
+	
+	<div style="background-color: #3e6897;">
+
+    <div id="header">
+		<img class="smallLogo" src="images/Logowhite.png" alt="smalllogo"/>
+		<div id="statictext">
+		<ul class="headerStaticText">
+			<li class="headerBullets headertextStatic">isaac.archambault@gmail.com</li>
+		</ul>
+		</div>
+		<div id="menuitems">
+		<ul class="headerListitems">
+			<li class="headerBullets"><a class="headertext" href="home">Home</a></li>
+			<li class="headerBullets"><a class="headertext" href="designportfolio">Design Portfolio</a></li>
+			<li class="headerBullets"><a class="headertext" href="webportfolio">Web Portfolio</a></li>
+			<li class="headerBullets"><a class="headertext" href="photography">Photography</a></li>
+			<li class="headerBullets"><a class="headertext" href="about">About</a></li>
+		</ul>
+		</div>	
+	</div>
+		
+	<div id="smallmenuiconcontroller">
+			<img id="smallmenuicon" src="images/SmallMenu.png" alt="smallmenuicon"/>
+		</div>
+	<div id="smallmenucontroller">
+		<div id="smallmenupositioner">
+				<div class="headerBulletsSmall"><a class="headertextsmall" href="home">Home</a></div>
+				<div class="headerBulletsSmall"><a class="headertextsmall" href="designportfolio">Design Portfolio</a></div>
+				<div class="headerBulletsSmall"><a class="headertextsmall" href="webportfolio">Web Portfolio</a></div>
+				<div class="headerBulletsSmall"><a class="headertextsmall" href="photography">Photography</a></div>
+				<div class="headerBulletsSmall"><a class="headertextsmall" href="about">About</a></div>
+			</div>
+		</div>
+
+    <div id="divbox1altalt">
+        <div id="divbox2alt">
+            <div id="divbox6">
+                <p class="h8">Want to Connect?</p>
+                <div class="divboxSpacer2"></div>
+                <form name="contactform" method="post" action="send_form_email.php">
+                    <table class="center">
+                        <tr>
+                            <td>
+                                <label class="contactText" for="first_name">First Name <span id="asterisk1">*</span></label>
+                            </td>
+                            <td>
+                                <input class="contactInput" id="fname" type="text" name="first_name" maxlength="50" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+  								<label class="contactText" for="last_name">Last Name <span id="asterisk2">*</span></label>
+                            </td>
+                            <td>
+                                <input class="contactInput" id="lname" type="text" name="last_name" maxlength="50" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="contactText" for="email">Email Address <span id="asterisk3">*</span></label>
+                            </td>
+                            <td>
+                                <input class="contactInput" id="email" type="text" name="email" maxlength="80" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="contactText" for="telephone">Phone</label>
+                            </td>
+                            <td>
+                                <input class="contactInputPhone" type="text" name="telephone" maxlength="30" size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="contactText" for="comments">Comments <span id="asterisk4">*</span></label>
+                            </td>
+                            <td>
+                                <textarea class="contactInputComments" id="comments" name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center">
+                                <input class="submit" id="sub" type="submit" value="Submit">
+                            </td>
+                        </tr>
+                    </table>
+				</form>
+				
+            </div>			
+            
+        </div>
+
+        <footer>
+            <p class="footertext">Copyright &copy; 2021 Isaac Archambault</p>
+        </footer>
+
+    </div>
+</div>
+    <script type="text/javascript" src="js/animations.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+	<script type="text/javascript" src="js/loadscreen.js"></script>
+</body>
+
+</html>

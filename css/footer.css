@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* footer  */
+
+footer {
+    clear: both;
+    position: relative;
+    height: 100px;
+	-webkit-box-shadow: 0px -10px 20px  rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px -10px 20px  rgba(0, 0, 0, 0.4);
+	box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.4);
+	background-color: #3e6897;
+}
+@media only screen and (max-width: 1000px) {
+  footer {
+   height: 150px;
+  }
+}
+#footeralt {
+	position: relative;
+	width: 100%;
+    height: 100px;
+	background-color: #1D1D1D;
+	z-index: 1000;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  #footeralt {
+    height: 150px;
+  }
+}
+
