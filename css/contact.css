@@ -60,7 +60,8 @@
 	padding-right: 10px;
 	-webkit-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
-}@media only screen and (max-width: 1000px) {
+}
+@media only screen and (max-width: 1000px) {
   .contactInputPhone {
 	margin-left: 10px;
   }
@@ -126,5 +127,15 @@ td {
 @media only screen and (max-width: 1000px) {
   td {
 	display: block;
+  }
+}
+.reCaptcha {
+	display: block;
+	margin-top: 10px;
+	margin-left: 135px;
+}
+@media only screen and (max-width: 1000px) {
+  .reCaptcha {
+	margin-left: 10px;
   }
 }
