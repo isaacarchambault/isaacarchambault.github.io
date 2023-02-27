@@ -90,6 +90,10 @@ submit.onclick = function checkContactInputs() {
 		lname.value.length >= "1" &&
 	   	email.value.indexOf('@') >= "1" &&
 		comments.value.length >= "3") {
+
+		function onSubmit(token) {
+        	sub.submit();
+    	}
 		
 		return true;
 		
